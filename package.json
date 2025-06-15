@@ -1,0 +1,60 @@
+{
+  "name": "jsdomiot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Document Object Model for IoT. Node.js library that extends the popular `jsdom` library to support Internet of Things systems. The DOM for IoT (DOMIoT) fully preserves the original DOM API, exposing exactly the same methods as those used in web development such as `getElementById`, `setAttribute` and `addEventListener`.",
+  "author": "Alvaro Fernandez ( domiot.org )",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js"
+    }
+  },
+  "files": [
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domiot-io/jsdomiot.git"
+  },
+  "keywords": [
+    "IoT",
+    "internet-of-things",
+    "html",
+    "DOM",
+    "jsdom",
+    "domiot",
+    "smart-home",
+    "domotics",
+    "iot-framework",
+    "iot-system-architectures",
+    "iot-system"
+  ],
+  "bugs": {
+    "url": "https://github.com/domiot-io/jsdomiot/issues"
+  },
+  "homepage": "https://domiot.org",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "another-mutex": "^0.0.0",
+    "jsdom": "^26.1.0",
+    "keep-streaming": "^1.2.0",
+    "iot-elements-node": "^1.0.0"
+  },
+  "peerDependencies": {
+    "iot-bindings-node": "^1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "iot-bindings-node": {
+      "optional": true
+    }
+  }
+}
