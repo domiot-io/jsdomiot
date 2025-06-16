@@ -1,4 +1,4 @@
-# jsDOMIoT: Domument Object Model for IoT, a Node.js implementation.
+# jsDOMIoT: Document Object Model for IoT, a Node.js implementation.
 
 **jsdomiot** is a Node.js library that extends the popular `jsdom` library to support Internet of Things (IoT) elements and hardware bindings. It creates a virtual DOM environment where you can interact with physical IoT devices using familiar HTML/DOM APIs.
 
