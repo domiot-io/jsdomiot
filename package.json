@@ -1,6 +1,6 @@
 {
   "name": "jsdomiot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Document Object Model for IoT. Node.js library that extends the popular `jsdom` library to support Internet of Things systems. The DOM for IoT (DOMIoT) fully preserves the original DOM API, exposing exactly the same methods as those used in web development such as `getElementById`, `setAttribute` and `addEventListener`.",
   "author": "Alvaro Fernandez ( domiot.org )",
