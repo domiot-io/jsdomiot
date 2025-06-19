@@ -13,7 +13,7 @@ This simple yet illustrative example demonstrates how to create an interactive s
 
 ## Quick setup
 
-For a quick setup script for DOMIoT (Document Object Model for IoT) on Linux systems use the (jsdomiot kickstart)[https://github.com/domiot-io/jsdomiot-kickstart]. Simply run a script, and the entire setup will be installed for you.
+For a quick setup script for DOMIoT (Document Object Model for IoT) on Linux systems use the [jsdomiot kickstart](https://github.com/domiot-io/jsdomiot-kickstart). Simply run a script, and the entire setup will be installed for you.
 
 ## Step-by-Step Tutorial
 
