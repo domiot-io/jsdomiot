@@ -4,6 +4,9 @@ This example demonstrates how to create an interactive hotel room door system us
 
 Simulates lock/unlock every 5 seconds with both normal operations and redundant operations, displaying door state changes and LCD messages.
 
+## Quick setup
+
+For a quick setup script for DOMIoT (Document Object Model for IoT) on Linux systems use the (jsdomiot kickstart)[https://github.com/domiot-io/jsdomiot-kickstart]. Simply run a script, and the entire setup will be installed for you.
 
 ## Step-by-Step Tutorial
 

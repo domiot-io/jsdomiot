@@ -11,6 +11,10 @@ This simple yet illustrative example demonstrates how to create an interactive s
 - When a button is **pressed**, its corresponding shelving unit lights up in **blue**.
 - When a button is **released**, the shelving unit returns to **white** light.
 
+## Quick setup
+
+For a quick setup script for DOMIoT (Document Object Model for IoT) on Linux systems use the (jsdomiot kickstart)[https://github.com/domiot-io/jsdomiot-kickstart]. Simply run a script, and the entire setup will be installed for you.
+
 ## Step-by-Step Tutorial
 
 ### 1. Install and Load Drivers for testing
