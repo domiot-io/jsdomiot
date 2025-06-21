@@ -64,8 +64,8 @@ const html = `
 <html>
     <iot-aisle id="aisle6" name="Coffee, Hot Beverages, Cookies & Chocolate">
 
-        <iot-ihubx24-button-binding id="a6ButtonBinding" location="/dev/ihubx24-sim0">
-        <iot-ohubx24-color-binding id="a6ColorBinding" channels-per-element="2" colors-channel="white;blue" location="/dev/ohubx24-sim0">
+        <iot-ibits-button-binding id="a6ButtonBinding" location="/dev/ihubx24-sim0">
+        <iot-obits-color-binding id="a6ColorBinding" channels-per-element="2" colors-channel="white;blue" location="/dev/ohubx24-sim0">
 
         <iot-button id="a6Product1Button" shelving-unit-id="a6L1" binding="a6ButtonBinding:0">
         <iot-button id="a6Product2Button" shelving-unit-id="a6L2" binding="a6ButtonBinding:1">
