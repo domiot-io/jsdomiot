@@ -89,7 +89,7 @@ const html = `
 
         <!-- Bindings for hardware control -->
         <iot-iobits-lock-binding id="lockBinding" location="/dev/iohubx24-sim0">
-        <iot-otext-message-binding id="lcdBinding" location="/dev/lcd-sim0">
+        <iot-otext-attribute-binding id="lcdBinding" attribute-name="message" location="/dev/lcd-sim0">
 
         <!-- Hotel room door with electronic lock and LCD display -->
         <iot-door id="hotelDoor" 
